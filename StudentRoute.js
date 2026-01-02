@@ -11,7 +11,7 @@ let students = [
   },
   {
     id: 2,
-    name: "Elle",
+    name: "Hari",
     dept: "B.Com",
     age: 21
   }
@@ -138,5 +138,6 @@ router.delete("/delete/:id", (req, res) => {
     students
   });
 });
+
 
 module.exports = router;
